@@ -43,7 +43,7 @@ function check_answer() {
                 continue;
             }
         }
-
+        
         let is_have = 0;
 
         for(let j=0;j<wordDict[word_idex].word.length;j++){
