@@ -1,3 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.word-definition-container {
+    display: flex;
+    align-items: center;
+}
+
+.word-definition-title {
+    width: 150px;
+    font-size: 20px;
+    margin-right: 10px;
 }
