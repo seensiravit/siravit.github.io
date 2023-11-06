@@ -5,12 +5,19 @@
         <link rel="stylesheet" href="style/wordGuessing.css">
     </head>
     <body>
-        <div class="word-definition-container">
-            <p class="word-definition-title">Word Definition : </p>
-            <p>Hello world</p>
+        <div class="user">
+            <button class="random-word-button js-random-word">Random Word</button>
+            <div class="word-definition-container">
+                <p class="word-definition-title">Word Definition : </p>
+                <p>Hello world</p>
+            </div>
+            <input type="text" placeholder="enter the word" class="js-word-input">
+            <button class="submit-button">Submit</button>
         </div>
-        <input type="text" placeholder="enter the word" class="js-word-input">
-        <button class="submit-button">Submit</button>
+        
+        <div class="admin">
+            <div class="js-answer"></div>
+        </div>
     </body>
 
     <script type="module" src="script/wordGuessing.js"></script>
