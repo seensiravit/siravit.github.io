@@ -1,0 +1,94 @@
+body {
+    background-color: blanchedalmond;
+}
+
+.header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+
+.left-section {
+    font-size: 30px;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.random-button {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.score {
+    font-size: 20px;
+}
+
+.content-container {
+    position: fixed;
+    top: 50px;
+    left: 141px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    background-image: url(bg01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.word-definition-container {
+    width: auto;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 250px;
+    font-size: 15px;
+}
+
+.word-definition-title {
+    font-size: 25px;
+}
+
+.answer-container {
+    position: relative;
+    left: 1000px;
+    top: -50px;
+    font-size: 50px;
+}
+
+.sidebar-topic-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    width: auto;
+    background-color:gainsboro;
+    padding: 10px;
+}
+
+.topic-container {
+    display: flex;
+    margin: 5px;
+    background-color: yellow;
+}
+
+.topic-name {
+    display: inline;
+    font-size: 20px;
+    flex: 1;
+    margin: 0;
+}
+
+.topic-checkbox {
+    height: 21px;
+    margin-left: 15px;
+}

@@ -2,10 +2,47 @@
 <html>
     <head>
         <title>Home page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style/general.css">
         <link rel="stylesheet" href="style/home.css">
         
     </head>
     <body>
+        <div class="header">
+            <div class="left-section"> Word Guessing</div>
+            <div class="score">score: 10</div>
+            <button class="random-button">random</button>
+        </div>
         
+        <div class="sidebar-topic-container">
+            <div class="topic-container">
+                <div class="topic-name">chapter 1</div>
+                <input type="checkbox" class="topic-checkbox">
+            </div>
+
+            <div class="topic-container">
+                <div class="topic-name">chapter 2</div>
+                <input type="checkbox" class="topic-checkbox">
+            </div>
+
+            <div class="topic-container">
+                <div class="topic-name">chapter 3</div>
+                <input type="checkbox" class="topic-checkbox">
+            </div>
+        </div>
+
+        <div class="content-container">
+            <div class="word-definition-container">
+                <p class="word-definition-title">Word Definition : </p>
+                <p class="js-word-definition">Red round fruit</p>
+            </div>
+
+            <div class="answer-container">
+                apple
+            </div>
+        </div>
     </body>
 </html>
