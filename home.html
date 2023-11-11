@@ -14,35 +14,37 @@
         <div class="header">
             <div class="left-section"> Word Guessing</div>
             <div class="score">score: 10</div>
-            <button class="random-button">random</button>
+            <button class="random-button js-random-word">random</button>
         </div>
         
         <div class="sidebar-topic-container">
             <div class="topic-container">
                 <div class="topic-name">chapter 1</div>
-                <input type="checkbox" class="topic-checkbox">
+                <input type="checkbox" class="topic-checkbox js-topic-checkbox" value="chapter1">
             </div>
 
             <div class="topic-container">
                 <div class="topic-name">chapter 2</div>
-                <input type="checkbox" class="topic-checkbox">
+                <input type="checkbox" class="topic-checkbox js-topic-checkbox" value="chapter2">
             </div>
 
             <div class="topic-container">
                 <div class="topic-name">chapter 3</div>
-                <input type="checkbox" class="topic-checkbox">
+                <input type="checkbox" class="topic-checkbox js-topic-checkbox" value="chapter3">
             </div>
+            <button class="go-button js-go-button">GO</button>
         </div>
 
         <div class="content-container">
             <div class="word-definition-container">
                 <p class="word-definition-title">Word Definition : </p>
-                <p class="js-word-definition">Red round fruit</p>
+                <p class="definition js-word-definition">Hello world</p>
             </div>
-
-            <div class="answer-container">
-                apple
-            </div>
+            <input type="text" placeholder="enter the word" class="js-word-input">
+            <button class="submit-button js-submit-button">Submit</button>
+            <p class="result js-result"></p>
         </div>
+
+        <script type="module" src="script/wordGuessing.js"></script>
     </body>
 </html>

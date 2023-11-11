@@ -1,5 +1,5 @@
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(170, 169, 169);
 }
 
 .header {
@@ -40,29 +40,10 @@ body {
     bottom: 0;
     right: 0;
     margin: 0;
-    background-image: url(bg01.png);
+    /* background-image: url(bg01.png);
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.word-definition-container {
-    width: auto;
-    display: inline-block;
-    position: relative;
-    top: 50px;
-    left: 250px;
-    font-size: 15px;
-}
-
-.word-definition-title {
-    font-size: 25px;
-}
-
-.answer-container {
-    position: relative;
-    left: 1000px;
-    top: -50px;
-    font-size: 50px;
+    background-size: cover; */
+    background-color: blanchedalmond;
 }
 
 .sidebar-topic-container {
@@ -91,4 +72,27 @@ body {
 .topic-checkbox {
     height: 21px;
     margin-left: 15px;
+}
+
+.word-definition-container {
+    display: flex;
+    align-items: center;
+}
+
+.word-definition-title {
+    width: 157px;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.definition {
+    flex: 1;
+}
+
+.admin {
+    margin-top: 20px;
+}
+
+.result {
+    color: red;
 }

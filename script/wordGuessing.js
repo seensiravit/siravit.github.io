@@ -12,12 +12,13 @@ function get_word() {
     const index = number % wordDict.length;
 
     word_idex = index;
+    console.log(word_idex);
 
     update_word();
 }
 
 function update_word() {
-    show_answer();
+    //show_answer();
     // change word definition
     document.querySelector('.js-word-definition').innerHTML = `${wordDict[word_idex].definition}`;
 }
@@ -31,15 +32,13 @@ function check_answer() {
     const inputElement = document.querySelector('.js-word-input');
     const input_word = inputElement.value;
 
-    console.log(typeof input_word);
-
     for(let i=0;i<input_word.length;i++){
-        console.log(i);
+        //console.log(i);
         if(i < wordDict[word_idex].word.length){
-            console.log('in');
+            //console.log('in');
             if(input_word[i] === wordDict[word_idex].word[i]){
                 html += `<span style="color: green">${input_word[i]}</span>`;
-                console.log('same');
+                //console.log('same');
                 continue;
             }
         }
@@ -47,10 +46,10 @@ function check_answer() {
         let is_have = 0;
 
         for(let j=0;j<wordDict[word_idex].word.length;j++){
-            console.log('check have');
+            //console.log('check have');
             if(input_word[i] === wordDict[word_idex].word[j]){
                 html += `<span style="color: blue">${input_word[i]}</span>`;
-                console.log('have');
+                //console.log('have');
                 is_have = 1;
                 continue;
             }
@@ -59,7 +58,7 @@ function check_answer() {
         if(is_have === 0) html += `${input_word[i]}`;
     }
 
-    console.log('debug');
+    //console.log('debug');
 
     document.querySelector('.js-result').innerHTML = html;
 }
@@ -70,6 +69,26 @@ document.querySelector('.js-random-word').addEventListener('click' , () => {
 });
 
 document.querySelector('.js-submit-button').addEventListener('click' , () => {
-    console.log('result function');
+    //console.log('result function');
     check_answer();
+});
+
+let topicList = [];
+
+function get_topic() {
+    let topic_dummy = [];
+
+    document.querySelectorAll('.js-topic-checkbox').forEach((checkbox) => {
+        if(checkbox.checked) topic_dummy.push(checkbox.value);
+    });
+    
+    topic_dummy.forEach((val) => {
+        console.log(val);
+    });
+
+    topicList = topic_dummy;
+}
+
+document.querySelector('.js-go-button').addEventListener('click' , () => {
+    get_topic();
 });
