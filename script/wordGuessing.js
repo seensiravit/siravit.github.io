@@ -62,7 +62,7 @@ function random_word() {
     get_word();
     update_word();
 
-    console.log(word);
+    console.log(topic_index , word);
 }
 
 document.querySelector('.js-random-word').addEventListener('click' , () => {
