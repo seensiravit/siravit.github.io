@@ -103,6 +103,11 @@ export let wordDict = [
 
 // for(let i=0 ; wordDict[i] ; i++) console.log(wordDict[i].word);
 
-export let topicIndex = [
-    {chapter0: 0} , {chapter6: 1} , {chapter7: 2}
-];
+export let topicIndex = {
+    'chapter0' : 0 , 
+    'chapter6' : 1 , 
+    'chapter7' : 2 , 
+    'chapter8' : 3 , 
+    'chapter9' : 4 , 
+    'chapter10' : 5
+};
