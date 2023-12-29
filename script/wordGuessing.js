@@ -1,7 +1,11 @@
-import { wordDict } from "../data/dict.js";
+import { topicIndex, wordDict } from "../data/dict.js";
 
 wordDict.forEach((value , index) => {
     console.log(index , value);
+});
+
+topicIndex.forEach((value , index) => {
+    console.log(index , value)
 });
 
 let word_idex = 0;
@@ -19,7 +23,7 @@ function get_word() {
 
 function update_word() {
     //show_answer();
-    // change word definition
+    // show word definition
     document.querySelector('.js-word-definition').innerHTML = `${wordDict[word_idex].definition}`;
 }
 
@@ -86,7 +90,11 @@ function get_topic() {
         console.log(val);
     });
 
-    topicList = topic_dummy;
+    topicList = topic_dummy
+
+    topicList.forEach((val) => {
+        console.log(val);
+    });
 }
 
 document.querySelector('.js-go-button').addEventListener('click' , () => {
