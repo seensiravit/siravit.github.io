@@ -1,0 +1,27 @@
+.sidebar-topic-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:0;
+    width: auto;
+    background-color:rgb(236, 219, 244);
+    padding: 10px;
+}
+
+.topic-container {
+    display: flex;
+    margin: 5px;
+    background-color: rgb(234, 163, 243);
+}
+
+.topic-name {
+    display: inline;
+    font-size: 20px;
+    flex: 1;
+    margin: 0;
+}
+
+.topic-checkbox {
+    height: 21px;
+    margin-left: 15px;
+}

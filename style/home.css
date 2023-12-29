@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(170, 169, 169);
 }
 
 .header {
@@ -40,20 +40,10 @@ body {
     bottom: 0;
     right: 0;
     margin: 0;
-    padding-top: 10px;
     /* background-image: url(bg01.png);
     background-repeat: no-repeat;
     background-size: cover; */
-    /* background-color: blanchedalmond; */
-    text-align: center;
-}
-
-.game-container {
-    display: inline-block;
-    text-align: left;
-    border: 2px solid #ccc;
-    padding: 20px;
-    width: 400px;
+    background-color: blanchedalmond;
 }
 
 .sidebar-topic-container {
@@ -105,17 +95,4 @@ body {
 
 .result {
     color: red;
-}
-
-.submit-button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }

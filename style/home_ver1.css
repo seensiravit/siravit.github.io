@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(223, 203, 235);
+}
+
+.content-container {
+    text-align: center;
+}
+
+.game-container {
+    display: inline-block;
+    text-align: left;
+    border: 5px solid #9e93c6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+.word-definition-container {
+    display: flex;
+    align-items: center;
+}
+
+.word-definition-title {
+    padding-right: 10px;
+}
+
+.definition {
+    flex: 1;
+}
+
+.guess-input {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.result {
+    color: red;
+}
+
+.random-button {
+    display: inline;
+}
+
+.score {
+    display: inline;
+}
+
+button {
+    background-color: #ad4caf;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
