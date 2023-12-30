@@ -1,2 +1,2 @@
 # Word-Guessing
-word guessing website projext
+word guessing website project
