@@ -1,0 +1,34 @@
+body {
+    background-image: url(welcome_bg02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Concert One','Train One','DotGothic16', sans-serif;
+    letter-spacing: 5px;
+    font-size: large;
+}
+
+.content-container {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.welcome-text {
+    font-size: 50px;
+}
+
+.name-text {
+    font-size: 70px;
+}
+
+.press-start-link {
+    color: red;
+}
+
+.link-text {
+    font-size: 80px;
+}
+
+.welcome-text , .name-text , .link-text { 
+    margin-top: 5px;
+    margin-bottom: 0;
+}
