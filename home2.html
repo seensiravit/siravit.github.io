@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Stickman version</title>
+        <title>Stickman</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" href="style/general.css">
-        <link rel="stylesheet" href="style/home_ver1.css">
-        <link rel="stylesheet" href="style/sidebar_ver1.css">
-        <link rel="stylesheet" href="style/stickman.css">
+        <link rel="stylesheet" href="style/home_ver2.css">
         
     </head>
     <body>
-
         <div class="sidebar-topic-container">
             <div class="topic-list-container">
                 <div class="topic-container">
@@ -51,7 +48,32 @@
         </div>
 
         <div class="content-container">
-            
+            <div class="question-container">
+                <div class="word-definition-container-area">
+                    <div class="word-definition-container">
+                        <p class="word-definition-title">What is this Word ????</p>
+                        <p class="definition js-word-definition">Hello world</p>
+                    </div>
+                </div>
+                
+                <div class="random-button-container-area">
+                    <button class="random-button js-random-word">random</button>
+                </div>
+            </div>
+
+            <div class="answer-container">
+                <div class="guess-input-container">
+                    <div class="guess-input">
+                        <label for="guess">It is </label>
+                        <input type="text" id="guess" name="guess" class="js-word-input">
+                        <button class="submit-button js-submit-button">Submit</button>
+                    </div>
+
+                    <div class="result-container">
+                        <p class="result js-result">wrong</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script type="module" src="script/wordGuessing.js"></script>
