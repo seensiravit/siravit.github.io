@@ -99,3 +99,7 @@ button {
     cursor: pointer;
     margin-bottom: 20px;
 }
+
+.score-display {
+    display: inline;
+}

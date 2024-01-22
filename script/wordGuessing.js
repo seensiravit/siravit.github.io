@@ -74,10 +74,21 @@ function show_answer() {
     document.querySelector('.js-answer').innerHTML = `${word.word}`;
 }
 
+export let score = 0;
+
+// update score section
+function update_score(){
+    document.querySelector('.js-score').innerHTML = `${score}`
+}
+
+
+// check answer section
 function check_answer() {
     let html = '';
     const inputElement = document.querySelector('.js-word-input');
     const input_word = inputElement.value;
+
+    let same = 0;       // correct character and position
 
     for(let i=0;i<input_word.length;i++){
         //console.log(i);
@@ -85,7 +96,8 @@ function check_answer() {
             //console.log('in');
             if(input_word[i] === word.word[i]){
                 html += `<span style="color: green">${input_word[i]}</span>`;
-                //console.log('same');
+                same += 1;
+                console.log('same');
                 continue;
             }
         }
@@ -108,6 +120,15 @@ function check_answer() {
     //console.log('debug');
 
     document.querySelector('.js-result').innerHTML = html;
+
+    console.log(input_word.length , word.word.length);
+
+    if (input_word.length === word.word.length && same===word.word.length){
+        console.log('get score');
+        score += 1;
+        console.log(score);
+        update_score();
+    }
 }
 
 document.querySelector('.js-submit-button').addEventListener('click' , () => {

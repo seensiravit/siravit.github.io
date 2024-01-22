@@ -82,21 +82,21 @@ export let wordDict = [
         
         // chapter 10
         [
-            { word: 'swerve ' , definition: ' to change direction suddenly' },
-            { word: 'factors ' , definition: ' things that influences a situation' },
-            { word: 'claimed ' , definition: ' said that something belongs to you' },
-            { word: 'depicting ' , definition: ' showing something in a painting or a drawing' },
-            { word: 'potholes ' , definition: ' holes in the surface of a road' },
-            { word: 'elaborate ' , definition: ' very detailed and complicated' },
-            { word: 'incorporated ' , definition: ' made part of something else' },
-            { word: 'billboards ' , definition: ' large advertisements on the side of the road' },
-            { word: 'brickwork ' , definition: ' the part of a building made from bricks' },
-            { word: 'portraits ' , definition: ' pictures, paintings or photographs of a person' },
-            { word: 'publicity stuns ' , definition: ' events or things done to attract attention' },
-            { word: 'charities ' , definition: ' organizations that collect money to help other people' },
-            { word: 'portable ' , definition: ' easy to carry' },
-            { word: 'striking ' , definition: ' making a strong impression' },
-            { word: 'primitive ' , definition: ' belonging to a very early, simple society' }
+            { word: 'swerve' , definition: ' to change direction suddenly' },
+            { word: 'factors' , definition: ' things that influences a situation' },
+            { word: 'claimed' , definition: ' said that something belongs to you' },
+            { word: 'depicting' , definition: ' showing something in a painting or a drawing' },
+            { word: 'potholes' , definition: ' holes in the surface of a road' },
+            { word: 'elaborate' , definition: ' very detailed and complicated' },
+            { word: 'incorporated' , definition: ' made part of something else' },
+            { word: 'billboards' , definition: ' large advertisements on the side of the road' },
+            { word: 'brickwork' , definition: ' the part of a building made from bricks' },
+            { word: 'portraits' , definition: ' pictures, paintings or photographs of a person' },
+            { word: 'publicity stuns' , definition: ' events or things done to attract attention' },
+            { word: 'charities' , definition: ' organizations that collect money to help other people' },
+            { word: 'portable' , definition: ' easy to carry' },
+            { word: 'striking' , definition: ' making a strong impression' },
+            { word: 'primitive' , definition: ' belonging to a very early, simple society' }
         ]
 ];
 
